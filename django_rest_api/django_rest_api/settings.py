@@ -33,6 +33,7 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get("RENDER_EXTERNAL_HOSTNAME")
 # Application definition
 
 INSTALLED_APPS = [
+    'djoser',
     'corsheaders',
     'rest_framework',
     'shoebox',

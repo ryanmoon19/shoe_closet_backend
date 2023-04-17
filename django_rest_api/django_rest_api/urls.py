@@ -20,5 +20,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('', include('shoebox.urls')),
-    path('/admin', admin.site.urls)
+    path('admin', admin.site.urls),
+    # path(r'^auth/', include('djoser.urls')),
 ]
